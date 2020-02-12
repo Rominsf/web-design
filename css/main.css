@@ -1,0 +1,199 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Regular.ttf') format('opentype');
+}
+
+html, body,
+body * {
+    margin: 0px auto;
+    padding: 0px;
+    /*line-height: 100%;*/
+    outline: none;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font: 14px "Open Sans";
+    color: #333333;
+    background-color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-weight: normal;
+    line-height: 140%;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 3.2em;
+}
+
+h3 {
+    font-size: 2.4em;
+}
+
+h4 {
+    font-size: 2em;
+}
+
+h5 {
+    font-size: 1.6em;
+}
+
+h6 {
+    font-size: 1.2em;
+}
+
+p, a {
+    font-size: em;
+}
+
+.main {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+    /*overflow: auto;*/
+}
+
+/*HEADER*/
+
+/*-------*/
+
+/*-- Content --*/
+.container.content {
+    padding-top: 100px;
+}
+
+/*-------------*/
+
+/*FOOTER*/
+.main.cont-footer {
+    background-color: #2B96CC;
+    border: unset;
+    bottom: 0;
+    box-shadow: 0 -4px 15px rgba(0, 0, 0, .4);
+}
+
+.content-footer {
+    text-align: center;
+    color: #ffffff;
+    margin: 20px;
+}
+
+.content-footer p {
+    font-size: 1em;
+}
+
+/*-----*/
+
+/*-----------------------------*/
+
+#ifrm, #yii-debug-toolbar {
+    display: none !important;
+}
+
+/* DEVICE WIDTH 1024px ~ 1279px */
+
+@media screen and (max-width: 1279px) {
+    .container {
+        width: 976px;
+    }
+}
+
+/* DEVICE WIDTH 960px ~ 1023px */
+
+@media screen and (max-width: 1023px) {
+    .container {
+        width: 912px;
+    }
+}
+
+/* DEVICE WIDTH 768px ~ 959px */
+
+@media screen and (max-width: 959px) {
+    .container {
+        width: 740px;
+    }
+}
+
+/* DEVICE WIDTH 640px ~ 767px */
+
+@media screen and (max-width: 767px) {
+    .container {
+        width: 618px;
+    }
+}
+
+/* DEVICE WIDTH 480px ~ 639px */
+
+@media screen and (max-width: 639px) {
+    .container {
+        width: 440px;
+    }
+}
+
+/* DEVICE WIDTH 400px ~ 479px */
+
+@media screen and (max-width: 479px) {
+    .container {
+        width: 376px;
+    }
+}
+
+/* DEVICE WIDTH 360px ~ 399px */
+
+@media screen and (max-width: 399px) {
+    .container {
+        width: 336px;
+    }
+}
+
+/* DEVICE WIDTH 320px ~ 359px */
+
+@media screen and (max-width: 359px) {
+    .container {
+        width: 300px;
+    }
+}
+
+/* DEVICE WIDTH 240px ~ 319px */
+
+@media screen and (max-width: 319px) {
+    html,
+    body {
+        display: none
+    }
+
+    .container {
+        width: 200px;
+    }
+}
+
+/* DEVICE WIDTH 0px ~ 240px */
+
+@media screen and (max-width: 239px) {
+    html,
+    body {
+        display: none
+    }
+}
